@@ -39,3 +39,17 @@ Depois de instaladas todas as dependências, é preciso ter os arquivos de confi
 `google-services,json // para Android - salve-o no diretório android/app do projeto`
 
 Depois de configurar o projeto Firebase ao projeto React Native, basta executar o comando `yarn ios` para executar o projeto em um dispositivo ou emulador iOS ou `yarn android` para executar o projeto em um dispositivo ou emulador Android.
+
+### Printscreens
+
+[![Splash Screen](https://firebasestorage.googleapis.com/v0/b/map-app-3a33b.appspot.com/o/Screen%20Shot%202020-04-27%20at%2016.47.13.png?alt=media&token=20a0b7aa-092b-48d2-a62d-d34e5ae05752 "Splash Screen")](https://firebasestorage.googleapis.com/v0/b/map-app-3a33b.appspot.com/o/Screen%20Shot%202020-04-27%20at%2016.47.13.png?alt=media&token=20a0b7aa-092b-48d2-a62d-d34e5ae05752 "Splash Screen")
+
+[![Login](https://firebasestorage.googleapis.com/v0/b/map-app-3a33b.appspot.com/o/Screen%20Shot%202020-04-27%20at%2016.49.14.png?alt=media&token=b4955a2a-dd4a-481d-9c2b-6e661d06505a "Login")](https://firebasestorage.googleapis.com/v0/b/map-app-3a33b.appspot.com/o/Screen%20Shot%202020-04-27%20at%2016.49.14.png?alt=media&token=b4955a2a-dd4a-481d-9c2b-6e661d06505a "Login")
+
+[![Validação do Código](https://firebasestorage.googleapis.com/v0/b/map-app-3a33b.appspot.com/o/Screen%20Shot%202020-04-27%20at%2016.49.47.png?alt=media&token=c2873c4b-0b2b-43a3-abf7-a6b2cdab1575 "Validação do Código")](https://firebasestorage.googleapis.com/v0/b/map-app-3a33b.appspot.com/o/Screen%20Shot%202020-04-27%20at%2016.49.47.png?alt=media&token=c2873c4b-0b2b-43a3-abf7-a6b2cdab1575 "Validação do Código")
+
+[![Configurações](https://firebasestorage.googleapis.com/v0/b/map-app-3a33b.appspot.com/o/Screen%20Shot%202020-04-27%20at%2016.50.49.png?alt=media&token=9287095e-3690-4156-a40e-2f912c8aa499 "Configurações")](https://firebasestorage.googleapis.com/v0/b/map-app-3a33b.appspot.com/o/Screen%20Shot%202020-04-27%20at%2016.50.49.png?alt=media&token=9287095e-3690-4156-a40e-2f912c8aa499 "Configurações")
+
+[![Mapa](https://firebasestorage.googleapis.com/v0/b/map-app-3a33b.appspot.com/o/Screen%20Shot%202020-04-27%20at%2016.50.57.png?alt=media&token=0377790f-e62c-44d3-b2cd-5b47f01d35a1 "Mapa")](https://firebasestorage.googleapis.com/v0/b/map-app-3a33b.appspot.com/o/Screen%20Shot%202020-04-27%20at%2016.50.57.png?alt=media&token=0377790f-e62c-44d3-b2cd-5b47f01d35a1 "Mapa")
+
+[![Nova Fruta](https://firebasestorage.googleapis.com/v0/b/map-app-3a33b.appspot.com/o/Screen%20Shot%202020-04-27%20at%2016.51.07.png?alt=media&token=d4f9fd34-c525-42b9-833d-0d7614870af3 "Nova Fruta")](https://firebasestorage.googleapis.com/v0/b/map-app-3a33b.appspot.com/o/Screen%20Shot%202020-04-27%20at%2016.51.07.png?alt=media&token=d4f9fd34-c525-42b9-833d-0d7614870af3 "Nova Fruta")
