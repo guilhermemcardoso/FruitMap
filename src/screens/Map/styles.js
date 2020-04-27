@@ -1,5 +1,4 @@
 import styled from 'styled-components/native';
-import { getStatusBarHeight } from 'react-native-iphone-x-helper'
 import * as theme from '~/themes';
 
 export const Container = styled.KeyboardAvoidingView.attrs({

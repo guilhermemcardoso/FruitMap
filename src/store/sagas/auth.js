@@ -12,7 +12,7 @@ export function* sendCode({payload}) {
     yield put(Actions.sendCodeSuccess(response));
     navigate('CodeValidation');
   } catch (err) {
-    console.log(err);
+    console.log('Erro ao enviar código de validação', err);
     yield put(Actions.sendCodeError());
   }
 }
@@ -36,7 +36,7 @@ export function* validateCode({payload}) {
     navigate(userData ? 'Map' : 'Register');
     yield put(Actions.validateCodeSuccess(userData ? userData : response.uid));
   } catch (err) {
-    console.log(err);
+    console.log('Erro ao validar código', err);
     yield put(Actions.validateCodeError());
   }
 }
@@ -45,11 +45,10 @@ export function* getAuth() {
   try {
     const json = yield call(AsyncStorage.getItem, '@FRUITMAP:auth');
     const auth = JSON.parse(json);
-    console.log('GET USER', auth);
     yield put(Actions.getAuthSuccess(auth));
     SplashScreen.hide();
   } catch (err) {
-    console.log(err.response);
+    console.log('Erro ao buscar usuário', err);
     yield put(Actions.getAuthError());
   }
 }
@@ -61,7 +60,7 @@ export function* logout() {
     yield put(Actions.logoutSuccess());
     navigate('Login');
   } catch (err) {
-    console.log(err);
+    console.log('Erro logout', err);
     yield put(Actions.logoutError());
   }
 }
@@ -81,7 +80,7 @@ export function* createUser({payload}) {
     );
     navigate('Map');
   } catch (err) {
-    console.log(err);
+    console.log('Erro ao criar usuário', err);
     yield put(Actions.createUserError());
   }
 }

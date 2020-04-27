@@ -40,3 +40,8 @@ export const borderRadiusLarge = 32;
 export const logoSizeSmall = 100;
 export const logoSize = 200;
 export const logoSizeLarge = 300;
+
+export const fabSize = 56;
+export const fabRadius = 28;
+
+export const fruitIconSize = 24;
