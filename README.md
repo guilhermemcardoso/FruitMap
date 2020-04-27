@@ -40,6 +40,15 @@ Depois de instaladas todas as dependências, é preciso ter os arquivos de confi
 
 Depois de configurar o projeto Firebase ao projeto React Native, basta executar o comando `yarn ios` para executar o projeto em um dispositivo ou emulador iOS ou `yarn android` para executar o projeto em um dispositivo ou emulador Android.
 
+ ### Observações
+ 
+- O projeto foi totalmente configurado apenas para iOS, algumas configurações ainda precisam ser feitas para funcionar completamente em Android
+- A aplicação é totalmente dependente do Firebase para seu funcionamento, portanto é preciso adicionar os arquivos de configuração do Firebase antes de tentar utilizar a aplicação
+
+### Próximos passos
+
+- Background Fetch
+
 ### Printscreens
 
 [![Splash Screen](https://firebasestorage.googleapis.com/v0/b/map-app-3a33b.appspot.com/o/Screen%20Shot%202020-04-27%20at%2016.47.13.png?alt=media&token=20a0b7aa-092b-48d2-a62d-d34e5ae05752 "Splash Screen")](https://firebasestorage.googleapis.com/v0/b/map-app-3a33b.appspot.com/o/Screen%20Shot%202020-04-27%20at%2016.47.13.png?alt=media&token=20a0b7aa-092b-48d2-a62d-d34e5ae05752 "Splash Screen")
