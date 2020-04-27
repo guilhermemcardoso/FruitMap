@@ -21,6 +21,8 @@ DerivedData
 *.ipa
 *.xcuserstate
 
+ios/GoogleService-Info.plist
+android/app/google-services.json
 # Android/IntelliJ
 #
 build/
