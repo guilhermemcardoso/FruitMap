@@ -5,7 +5,7 @@ import {useDispatch, useSelector} from 'react-redux';
 import {Actions} from '~/store/ducks/auth';
 
 const Login = () => {
-  const [phone, setPhone] = useState('+16062948791');
+  const [phone, setPhone] = useState('');
   const dispatch = useDispatch();
   const loading = useSelector((state) => state.auth.loading);
 
